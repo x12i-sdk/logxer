@@ -31,3 +31,20 @@ This is a documentation knowledge SDK. It is installed as a development dependen
 - [Reviewed package source](https://github.com/x12i/logxer/tree/7ae83aff9f1a5eaf982dfd3271d71d0e476788c8/packages/logxer-docs)
 
 The `package.json` in this repository is private to prevent accidental publication of the example application under an npm package name.
+
+## @x12i/logxer runtime example
+
+Standardized logging gateway for Node.js with PII sanitization, correlation trails, Shadow Logging for test/debug capture, scoping, story output, and multi-format output (JSON/YAML/text).
+
+Capture a package logger output and enforce its configured threshold. This example consumes `@x12i/logxer@5.2.0`.
+
+```sh
+npm install --ignore-scripts
+npm run example:logxer
+```
+
+Source: [`src/logxer-example.mjs`](src/logxer-example.mjs). The original documentation-package example remains available through `npm start`. Both examples are checked independently.
+
+## Runtime example scope
+
+The runtime consumer uses local synthetic data. It does not invoke a model, connect to MongoDB, or publish a package. Any temporary workspace is created and removed by the example. Documentation and runtime examples have separate commands and are validated separately.

@@ -2,14 +2,15 @@
   "name": "logxer-usage",
   "version": "1.0.0",
   "private": true,
-  "description": "Usage example for @x12i/logxer-docs: list the bundled guides and read a use case.",
+  "description": "Tested consuming examples for @x12i/logxer-docs, @x12i/logxer",
   "type": "module",
   "engines": {
     "node": ">=24"
   },
   "scripts": {
     "start": "node src/index.mjs",
-    "check": "node --check src/index.mjs"
+    "check": "node --check src/index.mjs",
+    "example:logxer": "node src/logxer-example.mjs"
   },
   "devDependencies": {
     "@x12i/logxer-docs": "1.0.0"
@@ -18,5 +19,8 @@
     "type": "git",
     "url": "https://github.com/x12i-sdk/logxer.git"
   },
-  "homepage": "https://www.npmjs.com/package/@x12i/logxer-docs"
+  "homepage": "https://www.npmjs.com/package/@x12i/logxer-docs",
+  "dependencies": {
+    "@x12i/logxer": "5.2.0"
+  }
 }

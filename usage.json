@@ -13,13 +13,31 @@
     "command": "npm start",
     "requiresCredentials": false,
     "validation": "passed",
-    "validatedAt": "2026-10-24T13:03:02.149109+00:00",
+    "validatedAt": "2026-10-24T14:51:31.944247+00:00",
     "isolatedInstallation": true,
     "sourceSha256": "402b30d6eae2a688b742b3d63fe5802e4b2de3c5bb6e0f05b3b313e2c6b992de",
-    "manifestSha256": "a2a4e11d42a303cb3dc352168e93df6a05d50332e8fb26dc49d92af252683e1d"
+    "manifestSha256": "03a50f413457841db7f50527accf6b9e248336467866b16e8123705796a7f143"
   },
   "npmPackages": [
     "@x12i/logxer-docs"
   ],
-  "publisher": "x12i-publisher[bot]"
+  "publisher": "x12i-publisher[bot]",
+  "additionalExamples": {
+    "@x12i/logxer": {
+      "packageVersion": "5.2.0",
+      "title": "Capture a package logger output and enforce its configured threshold",
+      "entrypoint": "src/logxer-example.mjs",
+      "command": "npm run example:logxer",
+      "requiresCredentials": false,
+      "validation": "passed",
+      "isolatedInstallation": true,
+      "sourceSha256": "d22efc90fc28eec30d151af11691a99f571353e886359842d12f8e736271307e",
+      "manifestSha256": "03a50f413457841db7f50527accf6b9e248336467866b16e8123705796a7f143",
+      "validatedAt": "2026-10-24T14:51:31.944247+00:00"
+    }
+  },
+  "validationFiles": {
+    "src/index.mjs": "402b30d6eae2a688b742b3d63fe5802e4b2de3c5bb6e0f05b3b313e2c6b992de",
+    "src/logxer-example.mjs": "d22efc90fc28eec30d151af11691a99f571353e886359842d12f8e736271307e"
+  }
 }
