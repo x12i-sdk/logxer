@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "package": "@x12i/logxer-docs",
+  "packageVersion": "1.0.0",
+  "npmUrl": "https://www.npmjs.com/package/@x12i/logxer-docs",
+  "usageRepository": "https://github.com/x12i-sdk/logxer",
+  "sourceRepository": "https://github.com/x12i/logxer",
+  "sourceCommit": "7ae83aff9f1a5eaf982dfd3271d71d0e476788c8",
+  "sourcePackageDirectory": "packages/logxer-docs",
+  "example": {
+    "title": "List the bundled guides and read a use case",
+    "entrypoint": "src/index.mjs",
+    "command": "npm start",
+    "requiresCredentials": false,
+    "validation": "passed",
+    "validatedAt": "2026-10-24T13:03:02.149109+00:00",
+    "isolatedInstallation": true,
+    "sourceSha256": "402b30d6eae2a688b742b3d63fe5802e4b2de3c5bb6e0f05b3b313e2c6b992de",
+    "manifestSha256": "a2a4e11d42a303cb3dc352168e93df6a05d50332e8fb26dc49d92af252683e1d"
+  },
+  "npmPackages": [
+    "@x12i/logxer-docs"
+  ],
+  "publisher": "x12i-publisher[bot]"
+}
